@@ -1,0 +1,27 @@
+{
+  "name": "mbrasil-site-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrasilce/mbrasil-site-nextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbrasilce/mbrasil-site-nextjs/issues"
+  },
+  "homepage": "https://github.com/mbrasilce/mbrasil-site-nextjs#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.30.0"
+  }
+}
