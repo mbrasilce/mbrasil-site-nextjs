@@ -19,47 +19,47 @@ function Home() {
                 <div className="card-deck mb-3 text-center">
                     <div className="card mb-4 box-shadow">
                         <div className="card-header">
-                            <h4 className="my-0 font-weight-normal">Free</h4>
+                            <h4 className="my-0 font-weight-normal">Hot Sites</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">$0 <small className="text-muted">/ mo</small></h1>
-                            <ul claclassNamess="list-unstyled mt-3 mb-4">
-                                <li>10 users included</li>
-                                <li>2 GB of storage</li>
-                                <li>Email support</li>
-                                <li>Help center access</li>
+                            <h1 className="card-title pricing-card-title">99,90 <small className="text-muted">€</small></h1>
+                            <ul className="list-unstyled mt-3 mb-4">
+                                <li>Entregue em 1 dia</li>
+                                <li>Tudo em uma página</li>
+                                <li>5 tópicos de conteúdo</li>
+                                <li>Formulário de contacto</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                            <button type="button" className="btn btn-lg btn-block btn-primary">Contrate</button>
                         </div>
                     </div>
                     <div className="card mb-4 box-shadow">
                         <div className="card-header">
-                            <h4 className="my-0 font-weight-normal">Pro</h4>
+                            <h4 className="my-0 font-weight-normal">Site Básico</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">$15 <small className="text-muted">/ mo</small></h1>
+                            <h1 className="card-title pricing-card-title">450 <small className="text-muted">€</small></h1>
                             <ul className="list-unstyled mt-3 mb-4">
-                                <li>20 users included</li>
-                                <li>10 GB of storage</li>
-                                <li>Priority email support</li>
-                                <li>Help center access</li>
+                                <li>Prazo 30 dias</li>
+                                <li>Até 10 páginas</li>
+                                <li>Até 10 Tópicos</li>
+                                <li>Até 2 Formulários de contacto</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-primary">Get started</button>
+                            <button type="button" className="btn btn-lg btn-block btn-outline-primary">Contrate</button>
                         </div>
                     </div>
                     <div className="card mb-4 box-shadow">
                         <div className="card-header">
-                            <h4 className="my-0 font-weight-normal">Enterprise</h4>
+                            <h4 className="my-0 font-weight-normal">Portal de Conteúdo</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">$29 <small className="text-muted">/ mo</small></h1>
+                            <h1 className="card-title pricing-card-title">1200 <small className="text-muted">€</small></h1>
                             <ul className="list-unstyled mt-3 mb-4">
-                                <li>30 users included</li>
-                                <li>15 GB of storage</li>
-                                <li>Phone and email support</li>
-                                <li>Help center access</li>
+                                <li>Prazo a combinar</li>
+                                <li>Conteúdo ilimitado</li>
+                                <li>Tópicos ilimitados</li>
+                                <li>Formulários ilimitados</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-primary">Contact us</button>
+                            <button type="button" className="btn btn-lg btn-block btn-primary">Contrate</button>
                         </div>
                     </div>
 
