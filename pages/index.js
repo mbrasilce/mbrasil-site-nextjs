@@ -24,7 +24,7 @@ function Home() {
                             <h4 className="my-0 font-weight-normal">Hot Sites</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">99,90 <small className="text-muted">€</small></h1>
+                            <h1 className="card-title pricing-card-title">99,90<small className="text-muted">€</small></h1>
                             <ul className="list-unstyled mt-3 mb-4">
                                 <li>Entregue em 1 dia</li>
                                 <li>Tudo em uma página</li>
@@ -39,7 +39,7 @@ function Home() {
                             <h4 className="my-0 font-weight-normal">Site Básico</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">450 <small className="text-muted">€</small></h1>
+                            <h1 className="card-title pricing-card-title">450<small className="text-muted">€</small></h1>
                             <ul className="list-unstyled mt-3 mb-4">
                                 <li>Prazo 30 dias</li>
                                 <li>Até 10 páginas</li>
@@ -54,7 +54,7 @@ function Home() {
                             <h4 className="my-0 font-weight-normal">Portal de Conteúdo</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">1200 <small className="text-muted">€</small></h1>
+                            <h1 className="card-title pricing-card-title">1200<small className="text-muted">€</small></h1>
                             <ul className="list-unstyled mt-3 mb-4">
                                 <li>Prazo a combinar</li>
                                 <li>Conteúdo ilimitado</li>

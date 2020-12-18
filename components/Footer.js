@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <hr className="mt-5" />
-            <footer class="container">
+            <footer className="container">
                 <p>&copy; MBrasil - Desenvolvedor Web | 2000-2021</p>
             </footer>
         </div>
