@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Menu from '../components/Menu'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Footer from '../components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function Home() {
     return (

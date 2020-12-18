@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Menu from '../components/Menu'
+import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function About() {

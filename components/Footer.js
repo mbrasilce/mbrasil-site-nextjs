@@ -4,8 +4,9 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div>
+            <hr className="mt-5" />
             <footer class="container">
-                <p>&copy; Company 2017-2018</p>
+                <p>&copy; MBrasil Web Developer 2000-2021</p>
             </footer>
         </div>
     )
