@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function About() {
     return (
 
-        <div className="container mt-5">
+        <div className="container">
             <Head>
                 <title>MBrasil - Desenvolvimento de Websites</title>
             </Head>

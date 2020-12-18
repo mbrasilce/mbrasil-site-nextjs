@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Menu from '../components/Menu'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from '../components/Footer'
 
 function Home() {
     return (
 
-        <div className="container mt-5">
+        <div className="container">
             <Head>
                 <title>MBrasil - Desenvolvimento de Websites</title>
             </Head>
@@ -65,6 +66,7 @@ function Home() {
 
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

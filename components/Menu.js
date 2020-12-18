@@ -42,7 +42,12 @@ const Menu = () => {
 
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <Link href="#">
+                            <a className="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            </Link>
+                            
                             <div className="dropdown-menu" aria-labelledby="dropdown01">
                                 <a className="dropdown-item" href="#">Action</a>
                                 <a className="dropdown-item" href="#">Another action</a>
