@@ -21,6 +21,7 @@ function Contact() {
                     <li>Aveiro / Portugal</li>
                 </ul>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

@@ -19,6 +19,7 @@ function About() {
 
                 <p>Somos uma empresa confiável, solucionadora de problemas, criadora de soluções enxutas com excelente custo benefício para pequenas, médias e grandes empresas.</p>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
