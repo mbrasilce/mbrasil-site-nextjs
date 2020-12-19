@@ -3,6 +3,8 @@ import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import Link from 'next/link';
+
 
 function Home() {
     return (
@@ -31,7 +33,9 @@ function Home() {
                                 <li>5 tópicos de conteúdo</li>
                                 <li>Formulário de contacto</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-primary">Contrate</button>
+                            <Link href="/contact">
+                                <a className="btn btn-lg btn-block btn-primary">Contrate</a>
+                            </Link>
                         </div>
                     </div>
                     <div className="card mb-4 box-shadow">
@@ -46,7 +50,9 @@ function Home() {
                                 <li>Até 10 Tópicos</li>
                                 <li>Até 2 Formulários de contacto</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-outline-primary">Contrate</button>
+                            <Link href="/contact">
+                                <a className="btn btn-lg btn-block btn-outline-primary">Contrate</a>
+                            </Link>
                         </div>
                     </div>
                     <div className="card mb-4 box-shadow">
@@ -61,7 +67,9 @@ function Home() {
                                 <li>Tópicos ilimitados</li>
                                 <li>Formulários ilimitados</li>
                             </ul>
-                            <button type="button" className="btn btn-lg btn-block btn-primary">Contrate</button>
+                            <Link href="/contact">
+                                <a className="btn btn-lg btn-block btn-primary">Contrate</a>
+                            </Link>
                         </div>
                     </div>
 
