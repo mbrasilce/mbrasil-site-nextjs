@@ -1,9 +1,25 @@
+import React from 'react';
+import emailjs from 'emailjs-com';
+
 import Head from 'next/head'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function Contact() {
+
+export default function Contact() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_cq9f2ip', 'template_fdntfyu', e.target, 'user_ySq4Gpz51PluUXjaVAx3o')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
     return (
 
         <div className="container">
@@ -16,15 +32,42 @@ function Contact() {
                 <p className="lead">Fale conosco</p>
             </div>
             <div className="container">
-                <ul>
-                    <li>+55 351 926 018 986 (Portugal)</li>
-                    <li>mbrasil@mbrasil.net</li>
-                    <li>Aveiro / Portugal</li>
-                </ul>
+                <div className="row">
+                    <div className="col-6">
+                        <ul>
+                            <li>+55 351 926 018 986 (Portugal)</li>
+                            <li>mbrasil@mbrasil.net</li>
+                            <li>Aveiro / Portugal</li>
+                        </ul>
+                    </div>
+                    <div className="col-6">
+                        <form className="contact-form" onSubmit={sendEmail}>
+                            <input type="hidden" name="contact_number" />
+                            <div className="form-group">
+                                <label htmlFor="from_name">Name*</label>
+                                <input className="form-control" type="text" id="from_name" name="from_name" required />
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="reply_to">Email*</label>
+                                <input className="form-control" type="email" id="reply_to" name="reply_to" required />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="message">Message*</label>
+                                <textarea className="form-control" id="message" name="message" required />
+                            </div>
+                            <p>
+                                <button className="btn btn-primary" type="submit">Send</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+
             </div>
             <Footer></Footer>
         </div>
-    )
-}
 
-export default Contact
+
+    );
+}

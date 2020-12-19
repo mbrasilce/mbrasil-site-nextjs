@@ -16,7 +16,7 @@ function About() {
                 <p className="lead">Um pouco sobre nós.</p>
             </div>
             <div className="container">
-                <p>A MBrasil é uma empresa que atua em Portugal e no Brasil e tem como seu CEO Márcio Brasil, desenvolvedor com mais de 20 anos de experiência, professor de tecnologias web, MBA em gestão de projetos, empresário e empreendedor em tecnlogias da informação.</p>
+                <p>A MBrasil é uma empresa que atua em Portugal e no Brasil e tem como seu CEO <em>Márcio Brasil</em>, desenvolvedor com mais de 20 anos de experiência, professor de tecnologias web, MBA em gestão de projetos, empresário e empreendedor em tecnlogias da informação.</p>
 
                 <p>Somos uma empresa confiável, solucionadora de problemas, criadora de soluções enxutas com excelente custo benefício para pequenas, médias e grandes empresas.</p>
             </div>

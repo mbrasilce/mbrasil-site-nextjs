@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mbrasilce/mbrasil-site-nextjs#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "emailjs-com": "^2.6.4",
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
