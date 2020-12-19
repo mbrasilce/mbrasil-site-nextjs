@@ -35,8 +35,9 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-md-6">
                         <ul>
-                            <li>+55 351 926 018 986 (Portugal)</li>
-                            <li>mbrasil@mbrasil.net</li>
+                            <li>Tlm: 926 018 986 (Portugal)</li>
+                            <li>Whatsapp: +351 926 018 986</li>
+                            <li>marcio@mbrasil.net</li>
                             <li>Aveiro / Portugal</li>
                         </ul>
                     </div>
