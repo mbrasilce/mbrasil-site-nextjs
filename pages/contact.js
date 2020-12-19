@@ -33,14 +33,14 @@ export default function Contact() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6">
                         <ul>
                             <li>+55 351 926 018 986 (Portugal)</li>
                             <li>mbrasil@mbrasil.net</li>
                             <li>Aveiro / Portugal</li>
                         </ul>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6">
                         <form className="contact-form" onSubmit={sendEmail}>
                             <input type="hidden" name="contact_number" />
                             <div className="form-group">
