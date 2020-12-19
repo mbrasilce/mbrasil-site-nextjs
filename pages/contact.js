@@ -6,6 +6,10 @@ import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 export default function Contact() {
 
@@ -31,17 +35,17 @@ export default function Contact() {
                 <h1 className="display-4">Contact</h1>
                 <p className="lead">Fale conosco</p>
             </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
+            <Container>
+                <Row>
+                    <Col md="6">
                         <ul>
                             <li>Tlm: 926 018 986 (Portugal)</li>
                             <li>Whatsapp: +351 926 018 986</li>
                             <li>marcio@mbrasil.net</li>
                             <li>Aveiro / Portugal</li>
                         </ul>
-                    </div>
-                    <div className="col-md-6">
+                    </Col>
+                    <Col md="6">
                         <form className="contact-form" onSubmit={sendEmail}>
                             <input type="hidden" name="contact_number" />
                             <div className="form-group">
@@ -61,11 +65,11 @@ export default function Contact() {
                                 <button className="btn btn-primary" type="submit">Send</button>
                             </p>
                         </form>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
 
 
-            </div>
+            </Container>
             <Footer></Footer>
         </div>
 
