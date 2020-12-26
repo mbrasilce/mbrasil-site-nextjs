@@ -15,7 +15,7 @@ const Menu = () => {
                         width={180}
                         height={54}
                         alt="MBrasil"
-                        quality={1} />
+                        quality={50} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
