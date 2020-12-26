@@ -12,22 +12,22 @@ const Menu = () => {
                     <Image
                         src="/logo-mbrasil.png"
                         layout="fixed"
-                        width={200}
-                        height={57}
+                        width={180}
+                        height={54}
                         alt="MBrasil"
-                        q={25} />
+                        quality={1} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/about">About Us</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
+                        <Nav.Link title="Página Inicial" href="/">Home</Nav.Link>
+                        <Nav.Link title="Quem Somos" href="/about">About Us</Nav.Link>
+                        <Nav.Link title="Fale conosco" href="/contact">Contact</Nav.Link>
                         <NavDropdown title="Social" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="https://www.linkedin.com/in/mbrasil/" target="_blank">Linkedin</NavDropdown.Item>
-                            <NavDropdown.Item href="https://www.youtube.com/user/WebDeveloperBrasil" target="_blank">YouTube</NavDropdown.Item>
-                            <NavDropdown.Item href="https://github.com/mbrasilce" target="_blank">GitHub</NavDropdown.Item>
-                            <NavDropdown.Item href="https://www.facebook.com/ProfMarcioBrasil" target="_blank">Facebook</NavDropdown.Item>
+                            <NavDropdown.Item href="https://www.linkedin.com/in/mbrasil/" title="linkedin de Márcio Brasil" target="_blank">Linkedin</NavDropdown.Item>
+                            <NavDropdown.Item href="https://www.youtube.com/user/WebDeveloperBrasil" title="Canal no Youtube de Márcio Brasil" target="_blank">YouTube</NavDropdown.Item>
+                            <NavDropdown.Item href="https://github.com/mbrasilce" title="Github de Márcio Brasil" target="_blank">GitHub</NavDropdown.Item>
+                            <NavDropdown.Item href="https://www.facebook.com/ProfMarcioBrasil" title="Fapage de Márcio Brasil" target="_blank">Facebook</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
