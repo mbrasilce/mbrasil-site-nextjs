@@ -8,7 +8,7 @@ export default function ContactUs() {
     emailjs
       .sendForm(
         "service_cq9f2ip",
-        "Template MBrasil",
+        "template_fdntfyu",
         e.target,
         "user_ySq4Gpz51PluUXjaVAx3o"
       )
