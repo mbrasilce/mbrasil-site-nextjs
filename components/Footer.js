@@ -7,7 +7,7 @@ const Footer = () => {
       <hr className="mt-5" />
       <footer className="container">
         <p>
-          &copy; MBrasil - Desenvolvedor Web | 2000-2021 - Portugal: +351 926
+          &copy; MBrasil - Desenvolvedor Web | 2000-2022 - Portugal: +351 926
           018 986
         </p>
       </footer>
