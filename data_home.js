@@ -46,7 +46,7 @@ export const sites = [
   {
     id: "5",
     tipo: "hospedagem",
-    name: "Site Básico",
+    name: "Semestral",
     price: "50",
     entrega: "1 mes GRÁTIS",
     paginas: "Hospedagem Linux / PHP",
@@ -57,7 +57,7 @@ export const sites = [
   {
     id: "6",
     tipo: "hospedagem",
-    name: "Portal de Conteúdo",
+    name: "Anual",
     price: "100",
     entrega: "2 meses GRÁTIS!",
     paginas: "Hospedagem Linux / PHP",
